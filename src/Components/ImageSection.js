@@ -1,18 +1,18 @@
 import React from 'react';
 import about from '../img/about.jpg';
 
-function ImageSection() {
+function HomePage() {
     return (
-        <div className="ImageSection">
+        <div className="HomePage">
             <div className="img">
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span> Lorem Ipsum</span></h4>
+                <h4>I am<span> Kamille Young</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                   I am new full stack Developer. I really enjoy UX/UI and styling. 
+                   I hope to hone my database and middleware skills over time. I desire to 
+                   obtain work as a freelance while I expand and build my ideas.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -24,12 +24,12 @@ function ImageSection() {
                         <p>Countries</p>
                     </div>
                     <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
+                        <p>: Kamille Tramia Young</p>
+                        <p>: 35</p>
+                        <p>: English</p>
+                        <p>: English, Some Spanish</p>
+                        <p>: Cleveland Ohio</p>
+                        <p>: United States</p>
                     </div>
                 </div>
                 <button className="btn">Download Cv</button>
@@ -38,4 +38,4 @@ function ImageSection() {
     )
 }
 
-export default ImageSection;
+export default HomePage;
